@@ -26,6 +26,9 @@
      render() {
          return (
              <Container>
+                <Header>
+                    <Title>Nukta</Title>
+                </Header>
                  <Content>
                      <Card dataArray={nukat}
                            renderRow={(nukata) =>

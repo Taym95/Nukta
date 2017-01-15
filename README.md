@@ -24,3 +24,8 @@ Note that you'll need the Android NDK installed, see [prerequisites](https://git
 - `cd Nukta && yarn install`
 - `react-native run-android`
 
+# Screenshots  :
+
+![Alt text](./img/Screenshot from 2017-01-15 23:03:56.png?raw=true "Screenshot")
+
+![Alt text](./img/Screenshot from 2017-01-15 23:04:33.png?raw=true "Screenshot")

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import jokes from 'jokes.dz'
-import { Modal } from 'react-native';
+import { Modal,AppRegistry } from 'react-native';
 import { Container, Header, Title, Content, Card, View } from 'native-base';
 import NuktaItem from './Nukta';
 import NuktaSummary from './NuktaSummary';
+
+
 
 class App extends Component {
     state = {
@@ -46,4 +48,4 @@ class App extends Component {
     }
 }
 
-export default App;
+AppRegistry.registerComponent('Nukta', () => App); 
